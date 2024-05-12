@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Main Page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<style>
+	.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: hotpink;
+  color: white;
+  height: 50%;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+  body {
+      font-family: Bahnschrift;
+      background-color: #f4f4f4;
+      background-image: url(yur.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+        .container {
+      width: 80%;
+      margin: 55px auto;
+      background: pink;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    }
+    .container h2 {
+      text-align: center;
+    }
+    .welcome-message {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .logo-image{
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-top: -6px;
+    }
+    .button {
+  background-color: hotpink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</style>
+</head>
+<body>
+ <div class="topnav" id="myTopnav">
+      <a class="navbar-brand" href="logo.png">
+        <div class="logo-image">
+          <img src="logo.png" class="img-fluid">
+        </div>
+      </a>
+      <a href="https://santos-rafa.github.io/Quarter1_Project1/">Quarter 1 Project</a>
+      <a href="https://santos-rafa.github.io/Quarter2_Project/">Quarter 2 Project</a>
+      <a href="https://santos-rafa.github.io/ICTQ3PROJECT/">Quarter 3 Project</a>
+      <a href="file:///C:/ICT_9_SANTOS_RAFAEL/ICT9EMERALD_Q4_QUIZ1_SANTOS_RAFAEL/index.html" class="active">Logout</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+  </a>
+</div>
+  <div class="container">
+    <h2>MY ONLINE PORTFOLIO</h2>
+    <div class="welcome-message">
+      <p>Hello, my name is Rafa and these are my projects that I have done throughout all of Grade 9! Click the links on the navbar to see all of my Projects from Quarter 1 all the way to Quarter 3! (btw, you can click the logo on the top left so you can see it better) </p>
+    </div>
+    <h2>Leave a comment so I can improve my programming skills!</h2>
+    <form class="form-group">
+     <input type="text" id="commentbox" class="form-control">
+      <br>
+      <div class="center">
+      <button type="submit" class="button" onclick="display(Comment Submitted)" >Submit</button>
+    </form>
+    <div></div>
+  </div>
+
+ <a href="https://santos-rafa.github.io/Quarter1_Project1/"><p id="viewQ1"></p></a>
+ <a href="https://santos-rafa.github.io/Quarter2_Project/"><p id="viewQ2"></p></a>
+ <a href="https://santos-rafa.github.io/ICTQ3PROJECT/"><p id="viewQ3"></p></a>
+
+ <script type="text/javascript">
+
+   function firstquarter(https://santos-rafa.github.io/Quarter1_Project1/){
+    document.getElementById('viewQ1').innerHTML="View Quarter 1 Project" 
+   }
+   function secondquarter(https://santos-rafa.github.io/Quarter2_Project/){
+    document.getElementById('viewQ2').innerHTML="View Quarter 2 Project"
+   }
+   function thirdquarter(https://santos-rafa.github.io/ICTQ3PROJECT/){
+    document.getElementById('viewQ3').innerHTML="View Quarter 3 Project"
+   }
+ </script>
+</body>
+</html>
